@@ -20,6 +20,8 @@ const App = () => {
 		setPeopleLoaded(true);
 	};
 
+	// i dont like how far my buttons are spread when a screen size gets xxl
+
 	return (
 		<>
 			<div className="text-center">
