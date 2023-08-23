@@ -9,6 +9,7 @@ const Films = () => {
 			.then((films) => setFilms(films));
 	}, []);
 
+	// Scroll to top function to avoid scrolling back up.
 	const scrollTop = () => {
 		window.scrollTo({
 			top: 0,
