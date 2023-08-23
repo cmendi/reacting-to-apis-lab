@@ -17,8 +17,6 @@ const Films = () => {
 		});
 	};
 
-	// trying to figure out how to make the Rotten Tomato's score change color based off of what score it has.
-
 	return (
 		<>
 			<main className="container mt-5">
@@ -38,7 +36,7 @@ const Films = () => {
 										Released in <span className="text-dark fs-5">{film.release_date}</span>
 									</li>
 									<li className="list-group-item text-body-tertiary">
-										Rotten Tomato Score <span className="text-dark fs-5">{film.rt_score}</span>
+										Rotten Tomato Score <span className={`${film.rt_score > 80 ? "text-success" : film.rt_score >= 61 ? "text-warning" : "text-danger"} fs-5`}>{film.rt_score}</span>
 									</li>
 								</ul>
 								<p className="card-text px-3 py-2">{film.description}</p>
