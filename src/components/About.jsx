@@ -12,7 +12,7 @@ const About = () => {
 							hook, and Boostrap for that iconic style. Click a button to view the resources from Studio Ghibli and enjoy!
 						</p>
 						<h6 className=" text-center card-subtitle m-2 text-secondary">
-							If you like what you see, contact me up here:{" "}
+							If you like what you see, contact me here:{" "}
 							<a href="https://mendenhallmedias.com/" target="_blank" className="text-primary">
 								My Website
 							</a>
